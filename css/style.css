@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: arial;
+}
+header{
+    background-image: url('../img/web_dev.jpg');
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 500px;
+}
+nav{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav a{
+    text-decoration: none;
+    background-color: pink;
+    display: block;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: #000;
+    float: left;
+}
+.main{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+h2{
+    color: red;
+    margin-top: 50px;
+}
+#logo{
+    width: 200px;
+    float: right;
+}
+
+/* This is for the container where the images will be  */
+.thumbnail-container{
+    float: left;
+    width: 140px;
+    height: auto;
+    margin: 5px;
+    background-color: orange;
+    opacity: 0.8;
+}
+
+/* styling that happens when you hover 
+ */
+ .thumbnail-container:hover{
+     opacity: 1;
+ }
+
+ /* the actual picture sizing */
+ .thumbnail-container img{
+     width: 100%;
+ }
+
+ /* This applies to the <p> tag inside the tumbnail container  */
+ .thumbnail-container p{
+     visibility: hidden;
+ }
+
+ .thumbnail-container:hover p{
+     visibility: visible;
+ }
+ .clearfloat{
+     clear: both;
+ }
+ /* For the contact form  */
+ .form-row{
+     margin: 10px 0px;
+ }
+ .main-label{
+    width: 300px;
+ }
